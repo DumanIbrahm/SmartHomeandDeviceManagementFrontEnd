@@ -1,0 +1,42 @@
+.content.grid5.mtop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content.grid5.mtop .box {
+  margin: 15px;
+  width: 250px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 30px;
+  border: 2px solid black;
+  transition: transform 0.3s ease-in-out;
+  text-decoration: none; /* Ensure no underline for links */
+  color: inherit; /* Ensure text color remains the same */
+}
+
+.content.grid5.mtop .box:hover {
+  transform: scale(1.1);
+}
+
+.content.grid5.mtop .box .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content.grid5.mtop .box .text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.content.grid5.mtop .box .img img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 100%;
+  height: auto;
+}

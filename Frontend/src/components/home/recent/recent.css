@@ -1,0 +1,50 @@
+.content.grid3.mtop {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Yeterince yer olmadığında kutuların alt satıra geçmesini sağlar */
+}
+
+.content.grid3.mtop .box {
+  flex: 1 1 calc(20% - 20px); /* Kutuların esnek genişlik almasını sağlar ve boşluklar dahil eşit genişlik */
+  box-sizing: border-box; /* Kenarlık ve dolgu dahil kutu boyutunu ayarlar */
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+  border-radius: 6px;
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+  margin: 10px; /* Kartlar arası boşluk */
+  display: flex;
+  flex-direction: column; /* İçeriği dikeyde hizalar */
+  align-items: center; /* İçeriği yatayda ortalar */
+  justify-content: space-between; /* İçeriği dikeyde yayar */
+  height: 450px; /* Kartın yüksekliğini belirle */
+}
+
+.content.grid3.mtop .img {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content.grid3.mtop .img img {
+  width: 100%;
+  height: auto; /* Yüksekliği otomatik yapar */
+  max-height: 70%; /* Resmin maksimum yüksekliğini belirler */
+  object-fit: cover; /* Resmin kutuyu kaplamasını sağlar */
+  border-bottom: 1px solid #ddd; /* Altına bir sınır ekler */
+}
+
+.content.grid3.mtop .button-container {
+  margin-top: auto; /* Butonu en alta yaslar */
+}
+
+.content.grid3.mtop .btn2 {
+  padding: 15px 20px; /* Butona iç boşluk ekler */
+  border-radius: 50%; /* Butonu yuvarlak yapar */
+  background-color: #28a745; /* Buton rengi */
+  color: #fff; /* Buton yazı rengi */
+  border: none; /* Buton kenarlığını kaldırır */
+  cursor: pointer; /* Butona el işaretçisi ekler */
+  font-size: 24px; /* Buton simge boyutunu büyütür */
+}

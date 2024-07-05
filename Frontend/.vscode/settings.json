@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/ed0a47be-3460-4b6a-9480-e41cc8b26eed/resourceGroups/frontendMayisDeploy/providers/Microsoft.Web/sites/frontendMayisDeploy",
+    "appService.deploySubpath": "."
+}

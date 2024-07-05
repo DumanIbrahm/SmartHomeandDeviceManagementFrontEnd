@@ -1,0 +1,92 @@
+.services {
+    position: relative;
+    padding: 60px 0;
+    overflow: hidden; /* Ensure content stays within bounds */
+  }
+  
+  .container {
+    position: relative;
+    z-index: 1; /* Place the content above the video */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video-title {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(19, 53, 116, 0.5);
+    margin-bottom: 20px; /* Add some space below the title */
+  }
+  
+  .services .book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+    background: #202020; /* Light background color for book effect */
+    border-radius: 10px;
+  }
+  
+  .page {
+    background: #fff;
+    padding: 20px;
+    width: 45%;
+    height: 60vh; /* Fixed height to prevent resizing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; /* Ensure content stays within bounds */
+  }
+  
+  .page p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .page-number {
+    position: absolute;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .left-number {
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .right-number {
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .pagination {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .pagination button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #27ae60;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination button:hover {
+    background-color: #219150;
+  }
+
+  
+  

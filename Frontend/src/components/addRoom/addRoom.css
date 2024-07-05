@@ -1,0 +1,11 @@
+.separator {
+    height: 20px;
+    background-color: #15545a;
+  }
+  
+  .cover-image {
+    width: 100%;
+    height: 360px; /* Fixed height */
+    object-fit: cover; /* Ensures the image covers the container */
+  }
+  

@@ -1,0 +1,11 @@
+.icon-cards-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.separator {
+  height: 20px;
+  background-color: #eee;
+}

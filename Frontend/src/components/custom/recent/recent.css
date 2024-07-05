@@ -1,0 +1,166 @@
+/* RecentCard.css */
+
+.recent {
+  padding: 50px 0;
+}
+
+.recent .container {
+  display: flex;
+  justify-content: center; /* Tek kutuyu ortalamak için */
+}
+
+.box {
+  background: #ffffff; /* Arka plan rengini beyaz yapalım */
+  border-radius: 15px; /* Köşeleri daha yuvarlak yapalım */
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 350px; /* Kartın maksimum genişliğini belirle */
+  height: 450px; /* Kartın yüksekliğini belirle */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Daha belirgin bir gölge ekleyelim */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* İçeriği yatayda ortalayalım */
+}
+
+.box img {
+  width: 100%;
+  height: auto; /* Yüksekliği otomatik yapalım */
+  max-height: 70%; /* Resmin maksimum yüksekliğini belirleyelim */
+  object-fit: cover; /* Resimlerin kartı kaplamasını sağlar */
+  border-bottom: 1px solid #ddd; /* Altına bir sınır ekleyelim */
+}
+
+.box h4, .box h1 {
+  font-size: 20px; /* Yazı boyutunu biraz artırın */
+  font-weight: 600;
+  margin: 15px 0 5px 0;
+  color: #333; /* Yazı rengini biraz koyulaştır */
+}
+
+.box label {
+  font-size: 16px; /* Yazı boyutunu biraz artırın */
+  color: #666; /* Yazı rengini biraz açık yapalım */
+  margin-bottom: 15px; /* Alt boşluk ekleyelim */
+}
+
+.text-container {
+  padding: 10px;
+  background: #fff; /* Arka plan rengini ayarlayın */
+  width: 100%;
+  box-sizing: border-box; /* İçeriğin kutunun tamamını kaplamasını sağlar */
+  text-align: center; /* Metni ortalayalım */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Butonu yatayda ortalayalım */
+}
+
+.btn2 {
+  margin-right: 0; /* Butonun sağında boşluk olmaması için sıfırlayalım */
+}
+
+.grid3 {
+  display: flex; /* Tek kutuyu ortalamak için esnek kutu düzeni */
+  justify-content: center; /* Tek kutuyu ortalamak için */
+}
+
+.mtop {
+  margin-top: 50px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Yarı şeffaf arka plan */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Pop-up'ın üstte görünmesi için z-index ekleyelim */
+}
+
+.form-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%; /* Küçük ekranlarda genişliği ayarlayın */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.3s ease-in-out; /* Pop-up'ın açılış animasyonu */
+}
+
+.form-container .img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-container .img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px; /* Başlık boyutunu artırın */
+  color: #333; /* Başlık rengini ayarlayın */
+  text-align: center; /* Başlığı ortalayalım */
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-button, .cancel-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease; /* Hover efekti için geçiş süresi */
+}
+
+.submit-button {
+  background: #007bff;
+  color: #fff;
+}
+
+.cancel-button {
+  background: #dc3545;
+  color: #fff;
+}
+
+.submit-button:hover {
+  background: #0056b3; /* Hover efekti için koyu mavi */
+}
+
+.cancel-button:hover {
+  background: #c82333; /* Hover efekti için koyu kırmızı */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

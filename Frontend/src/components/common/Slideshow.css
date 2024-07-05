@@ -1,0 +1,24 @@
+.slideshow {
+  width: 100%;
+  height: 360px; /* Yükseklik ihtiyacınıza göre ayarlayabilirsiniz */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideshow-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; /* Varsayılan olarak merkezde */
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+.slideshow-image.active {
+  opacity: 1;
+}

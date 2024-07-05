@@ -1,0 +1,24 @@
+.content.grid5.mtop {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Yeterince yer olmadığında kutuların alt satıra geçmesini sağlar */
+}
+
+.content.grid5.mtop .box {
+  flex: 1 1 calc(20% - 20px); /* Kutuların esnek genişlik almasını sağlar ve boşluklar dahil eşit genişlik */
+  box-sizing: border-box; /* Kenarlık ve dolgu dahil kutu boyutunu ayarlar */
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+  border-radius: 6px;
+  text-align: center;
+  padding: 0; /* Remove padding to let the image cover the whole card */
+  cursor: pointer;
+  margin: 10px; /* Kartlar arası boşluk */
+  overflow: hidden; /* Ensure the image stays within the card bounds */
+}
+
+.content.grid5.mtop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the card while maintaining aspect ratio */
+  display: block; /* Remove any margin or padding */
+}

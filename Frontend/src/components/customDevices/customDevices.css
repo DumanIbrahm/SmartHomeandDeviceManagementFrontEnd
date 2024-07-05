@@ -1,0 +1,11 @@
+/* src/components/customDevices/customDevices.css */
+.custom-devices-container {
+  margin: 0;
+  padding: 0;
+}
+
+/* src/components/home/recent/recent.css */
+.recent {
+  padding-top: 0; /* Ensure no padding at the top */
+  margin-top: 0;  /* Ensure no margin at the top */
+}

@@ -1,0 +1,117 @@
+.about {
+  position: relative;
+  padding: 60px 0;
+  overflow: hidden;
+  /* Ensure content stays within bounds */
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  /* Place the video behind the content */
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  /* Place the content above the video */
+  display: flex;
+  justify-content: center;
+}
+
+.mtop {
+  margin-top: 50px;
+}
+
+.about-content {
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  /* Arrange content in a column */
+  align-items: center;
+  /* Center align items horizontally */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.mission-vision,
+.history,
+.values,
+.contact-info {
+  margin-top: 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  /* Center align the section titles */
+}
+
+
+.team-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.team-card img {
+  width: 100%;
+  height: 250px;
+  /* Sabit bir yÃ¼kseklik ayarlayÄ±n */
+  object-fit: cover;
+  /* Resimlerin kartÄ±n iÃ§ine sÄ±ÄŸmasÄ±nÄ± saÄŸlayÄ±n ve taÅŸmasÄ±nÄ± Ã¶nleyin */
+}
+
+
+.team-card-content {
+  padding: 20px;
+}
+
+.team-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.team-card-subtitle {
+  font-size: 18px;
+  /* Subtitlenin boyutunu belirleyin */
+  color: #777;
+  /* Subtitlenin rengini belirleyin */
+  text-align: center;
+  /* Subtitlenin ortalanmasÄ±nÄ± saÄŸlayÄ±n */
+  margin-bottom: 10px;
+  /* Alt boÅŸluk ekleyin */
+}
+
+
+.team-card-description {
+  font-size: 16px;
+  text-align: center;
+  color: #555;
+}
+
+.team-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
