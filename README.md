@@ -68,6 +68,10 @@ The "Add Room" page allows users to add rooms to their houses, making device man
 ![Add Device](https://github.com/busecoban/SmartHomeandDeviceManagementFrontEnd/assets/73944611/21a8c499-c84e-4e9a-93a2-8f90a19869f9)
 Users can add new smart devices to their home by navigating to the "Add Device" page. This page provides a user-friendly interface for integrating new devices into the smart home ecosystem.
 
+![7a24ba45-cc6d-4f26-809f-5bda7a6c8f98](https://github.com/busecoban/SmartHomeandDeviceManagementFrontEnd/assets/73944611/70892343-3911-4108-bc52-200d7286673e)
+![883f68d6-b110-4341-ae93-abee3b5c32b8](https://github.com/busecoban/SmartHomeandDeviceManagementFrontEnd/assets/73944611/1c01ad3c-4c53-4786-8d4e-2ed14a0856c9)
+
+
 ## Project Team
 - **Buse Çoban**
 - **Ibrahim Duman**
