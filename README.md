@@ -75,6 +75,5 @@ Users can add new smart devices to their home by navigating to the "Add Device" 
 ## Project Team
 - **Buse Çoban**
 - **Ibrahim Duman**
-- **Buse Çoban**
 - **Meryem Ahıskalı**
 - **Özge Havva Şahin**
